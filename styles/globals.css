@@ -28,3 +28,7 @@ a {
     background: black;
   }
 }
+
+#__next {
+  height: 100vh;
+}
