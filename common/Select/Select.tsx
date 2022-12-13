@@ -17,6 +17,7 @@ type SelectProps = {
   name: string;
   placeholder?: string;
   id?: string;
+  className?: string;
 };
 
 export const SelectInput = ({
@@ -26,14 +27,16 @@ export const SelectInput = ({
   name,
   id = name,
   placeholder,
+  className,
 }: SelectProps): ReactElement => {
   return (
     <Select
       options={options}
       placeholder={placeholder}
       instanceId={name}
+      value={options.find((el) => el.value === value)}
       name={name}
-      className="hehe"
+      className={classNames(className)}
       id={id || name}
       onChange={(e) => e?.value && onChange(e?.value)}
       theme={(theme) => ({

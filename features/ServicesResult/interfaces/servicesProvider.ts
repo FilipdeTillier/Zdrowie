@@ -1,7 +1,7 @@
 export type ServiceType = "hunter" | "butcher";
 
 export interface ServiceProvider {
-  _id: string;
+  id: string;
   name: string;
   priceFrom: number;
   priceTo: number;

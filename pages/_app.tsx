@@ -9,7 +9,7 @@ import { wrapper } from "../store/store";
 import { Languages, selectLanguageState } from "../store/configSlice";
 import { Container } from "../common/Container";
 
-import "../styles/globals.css";
+import "../styles/globals.scss";
 
 const messages = {
   [Languages.pl]: messages_pl,

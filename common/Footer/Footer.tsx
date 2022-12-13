@@ -1,8 +1,11 @@
-import { ReactElement } from "react";
+import { colors, getBackgroundColor } from "@helpers/colors";
+import classNames from "classnames";
+import { ReactElement, useMemo } from "react";
 
 export const Footer = (): ReactElement => {
+  const bgColor = useMemo(() => getBackgroundColor(colors.header), []);
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className={classNames("bg-white dark:bg-gray-900", bgColor)}>
       <div className="container p-6 mx-auto">
         <div className="lg:flex">
           <div className="w-full -mx-6 lg:w-2/5">

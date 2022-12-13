@@ -1,0 +1,12 @@
+.search-bar {
+  height: 400px;
+  &__background {
+    height: 400px;
+    position: absolute;
+    left: 0;
+    background-image: url("../../images/meat_background.jpg");
+    background-size: cover;
+    background-position: unset;
+    background-attachment: fixed;
+  }
+}

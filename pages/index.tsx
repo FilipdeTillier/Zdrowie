@@ -1,10 +1,12 @@
+import { Fragment } from "react";
+
 import { SearchRecords } from "../features/SearchRecords";
 
 function Home() {
   return (
-    <div>
+    <Fragment>
       <SearchRecords />
-    </div>
+    </Fragment>
   );
 }
 

@@ -1,6 +1,7 @@
 export const colors = {
   primary: "slate-100",
   header: "slate-200",
+  body: "slate-50",
 };
 
 export const prefix = {

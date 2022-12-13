@@ -1,23 +1,33 @@
 import { ReactElement } from "react";
 import { useIntl } from "react-intl";
-import { ServiceProvider } from "../../interfaces/servicesProvider";
+import Image from "next/image";
+import image from "@images/company.png";
+
+import { ServiceProvider } from "@features/ServicesResult/interfaces/servicesProvider";
+import Link from "next/link";
+import { appPaths } from "@helpers/paths";
 
 interface ServiceResultProps {
   service: ServiceProvider;
 }
 
 export const ServiceCard = ({
-  service: { name, priceFrom, priceTo },
+  service: { name, priceFrom, priceTo, id, picture },
 }: ServiceResultProps): ReactElement => {
   const { formatMessage } = useIntl();
   return (
     <div className="flex w-full overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 mb-10">
-      <div className="w-1/3 bg-cover"></div>
+      <div className="w-1/3 bg-cover flex justify-center align-center">
+        <Image src={picture} alt={name} fill className="" />
+      </div>
 
       <div className="w-2/3 p-4 md:p-4">
-        <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
+        <Link
+          href={`${appPaths.offer}/${id}`}
+          className="text-2xl font-bold text-gray-800 dark:text-white"
+        >
           {name}
-        </h1>
+        </Link>
 
         <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
           Lorem ipsum dolor sit amet consectetur adipisicing elit In odit

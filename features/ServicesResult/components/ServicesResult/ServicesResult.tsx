@@ -12,10 +12,10 @@ export const ServicesResult = ({
 }: ServicesResultProps): ReactElement => {
   const { formatMessage } = useIntl();
   return (
-    <Fragment>
+    <div className="py-14">
       {services.map((service) => (
-        <ServiceCard key={service._id} service={service} />
+        <ServiceCard key={service.id} service={service} />
       ))}
-    </Fragment>
+    </div>
   );
 };
