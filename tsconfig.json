@@ -6,6 +6,7 @@
       "@common/*": ["common/*"],
       "@features/*": ["features/*"],
       "@images/*": ["images/*"],
+      "@public/*": ["public/*"],
       "@intl/*": ["intl/*"],
       "@pages/*": ["pages/*"],
       "@store/*": ["store/*"],

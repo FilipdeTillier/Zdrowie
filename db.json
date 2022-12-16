@@ -3,6 +3,7 @@
     {
       "id": "638f41d1b6f2bb49d661fd16",
       "name": "esse mollit ex",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 97,
       "priceTo": 739,
       "picture": "https://via.placeholder.com/300x150",
@@ -10,9 +11,7 @@
       "phone": "+1 (908) 537-2319",
       "province": "podlaskie",
       "address": "164 Creamer Street, Wollochet, Alaska, 3090",
-      "latitude": 28.481776,
       "serviceType": "hunter",
-      "longitude": 92.265604,
       "type": "",
       "tags": [
         "amet",
@@ -22,27 +21,35 @@
         "sit",
         "cupidatat",
         "tempor"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 41,
+      "rating": 1.72,
+      "position": [50.0121, 20.985842]
     },
     {
       "id": "638f41d12de8b585a5b8984f",
       "name": "velit in irure",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 379,
       "priceTo": 843,
       "picture": "https://via.placeholder.com/300x150",
-      "email": "josefinarogers@conjurica.com",
+      "email": "josefinarogers@urica.com",
       "phone": "+1 (954) 448-3102",
       "province": "kujawsko-pomorskie",
       "address": "321 Sumner Place, Disautel, American Samoa, 9093",
-      "latitude": 13.114634,
       "serviceType": "butcher",
-      "longitude": -137.762319,
       "type": "",
-      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"]
+      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"],
+      "accountType": "basic",
+      "noOfRatings": 87,
+      "rating": 2.77,
+      "position": [50.286263, 19.104078]
     },
     {
       "id": "638f41d17ccf4f4f4ea2f568",
       "name": "aliquip anim amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 33,
       "priceTo": 902,
       "picture": "https://via.placeholder.com/300x150",
@@ -50,15 +57,18 @@
       "phone": "+1 (809) 575-3116",
       "province": "swietokrzyskie",
       "address": "388 Louisa Street, Ironton, Louisiana, 4643",
-      "latitude": 36.958964,
       "serviceType": "hunter",
-      "longitude": -133.721607,
       "type": "",
-      "tags": ["aute", "adipisicing", "ad", "labore", "occaecat", "duis", "ad"]
+      "tags": ["aute", "adipisicing", "ad", "labore", "occaecat", "duis", "ad"],
+      "accountType": "premium",
+      "noOfRatings": 77,
+      "rating": 3.25,
+      "position": [50.435947, 18.846025]
     },
     {
       "id": "638f41d1141beade422dd381",
       "name": "fugiat culpa sit",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 70,
       "priceTo": 274,
       "picture": "https://via.placeholder.com/300x150",
@@ -66,15 +76,26 @@
       "phone": "+1 (881) 426-2420",
       "province": "malopolskie",
       "address": "610 Strickland Avenue, Celeryville, Indiana, 2308",
-      "latitude": -49.237557,
       "serviceType": "hunter",
-      "longitude": 102.330084,
       "type": "",
-      "tags": ["sint", "voluptate", "duis", "excepteur", "nisi", "est", "ipsum"]
+      "tags": [
+        "sint",
+        "voluptate",
+        "duis",
+        "excepteur",
+        "nisi",
+        "est",
+        "ipsum"
+      ],
+      "accountType": "gold",
+      "noOfRatings": 27,
+      "rating": 3.42,
+      "position": [52.406376, 16.925167]
     },
     {
       "id": "638f41d195e784d07d8b634b",
       "name": "sit quis sunt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 666,
       "priceTo": 613,
       "picture": "https://via.placeholder.com/300x150",
@@ -82,9 +103,7 @@
       "phone": "+1 (887) 433-2688",
       "province": "podkarpackie",
       "address": "565 Box Street, Dowling, Oregon, 610",
-      "latitude": 45.103389,
       "serviceType": "hunter",
-      "longitude": 108.89942,
       "type": "",
       "tags": [
         "commodo",
@@ -94,11 +113,16 @@
         "cillum",
         "ipsum",
         "eiusmod"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 24,
+      "rating": 4.26,
+      "position": [53.01379, 18.598444]
     },
     {
       "id": "638f41d13d90f4465cc7cbe2",
       "name": "sint nulla duis",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 811,
       "priceTo": 243,
       "picture": "https://via.placeholder.com/300x150",
@@ -106,9 +130,7 @@
       "phone": "+1 (975) 516-2525",
       "province": "slaskie",
       "address": "986 Battery Avenue, Finderne, Michigan, 1399",
-      "latitude": -42.185407,
       "serviceType": "hunter",
-      "longitude": -128.309609,
       "type": "",
       "tags": [
         "voluptate",
@@ -118,11 +140,16 @@
         "eu",
         "adipisicing",
         "eiusmod"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 67,
+      "rating": 1.73,
+      "position": [51.935619, 15.506186]
     },
     {
       "id": "638f41d189f710e716060061",
       "name": "culpa amet mollit",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 27,
       "priceTo": 596,
       "picture": "https://via.placeholder.com/300x150",
@@ -130,15 +157,18 @@
       "phone": "+1 (933) 524-2470",
       "province": "swietokrzyskie",
       "address": "924 Hillel Place, Vandiver, District Of Columbia, 3905",
-      "latitude": 54.741875,
       "serviceType": "butcher",
-      "longitude": 78.812568,
       "type": "",
-      "tags": ["ea", "eiusmod", "aute", "et", "adipisicing", "nostrud", "sit"]
+      "tags": ["ea", "eiusmod", "aute", "et", "adipisicing", "nostrud", "sit"],
+      "accountType": "gold",
+      "noOfRatings": 55,
+      "rating": 3.28,
+      "position": [54.741875, 14.552812]
     },
     {
       "id": "638f41d11837d14ce8f73781",
       "name": "proident et incididunt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 661,
       "priceTo": 732,
       "picture": "https://via.placeholder.com/300x150",
@@ -146,15 +176,18 @@
       "phone": "+1 (865) 479-2975",
       "province": "kujawsko-pomorskie",
       "address": "922 Perry Terrace, Statenville, Illinois, 1342",
-      "latitude": 49.196564,
       "serviceType": "butcher",
-      "longitude": -131.452082,
       "type": "",
-      "tags": ["voluptate", "ad", "eu", "consectetur", "eu", "ex", "aute"]
+      "tags": ["voluptate", "ad", "eu", "consectetur", "eu", "ex", "aute"],
+      "accountType": "basic",
+      "noOfRatings": 55,
+      "rating": 2.14,
+      "position": [49.196564, 21.999121]
     },
     {
       "id": "638f41d1faf524b5b7422672",
       "name": "anim sit Lorem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 610,
       "priceTo": 187,
       "picture": "https://via.placeholder.com/300x150",
@@ -162,9 +195,7 @@
       "phone": "+1 (806) 573-3112",
       "province": "lubelskie",
       "address": "571 Suydam Place, Homeland, Missouri, 6746",
-      "latitude": -87.07875,
       "serviceType": "butcher",
-      "longitude": 7.333637,
       "type": "",
       "tags": [
         "commodo",
@@ -174,11 +205,16 @@
         "in",
         "cupidatat",
         "dolor"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 26,
+      "rating": 4.52,
+      "position": [-87.07875, 19.944544]
     },
     {
       "id": "638f41d1794f3d58193806ae",
       "name": "dolor nostrud ea",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 506,
       "priceTo": 996,
       "picture": "https://via.placeholder.com/300x150",
@@ -186,15 +222,26 @@
       "phone": "+1 (902) 590-2081",
       "province": "lubuskie",
       "address": "678 Jefferson Avenue, Woodlake, Ohio, 9767",
-      "latitude": 63.165604,
       "serviceType": "butcher",
-      "longitude": -63.076101,
       "type": "",
-      "tags": ["commodo", "deserunt", "ex", "anim", "id", "dolor", "incididunt"]
+      "tags": [
+        "commodo",
+        "deserunt",
+        "ex",
+        "anim",
+        "id",
+        "dolor",
+        "incididunt"
+      ],
+      "accountType": "gold",
+      "noOfRatings": 95,
+      "rating": 3.97,
+      "position": [63.165604, 20.490189]
     },
     {
       "id": "638f41d1e598c666fe7805e4",
       "name": "laborum sit ut",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 484,
       "priceTo": 941,
       "picture": "https://via.placeholder.com/300x150",
@@ -202,15 +249,18 @@
       "phone": "+1 (960) 432-3386",
       "province": "malopolskie",
       "address": "558 Hamilton Walk, Sims, Palau, 5149",
-      "latitude": -9.918521,
       "serviceType": "hunter",
-      "longitude": 103.693928,
       "type": "",
-      "tags": ["ea", "officia", "in", "irure", "nisi", "amet", "eiusmod"]
+      "tags": ["ea", "officia", "in", "irure", "nisi", "amet", "eiusmod"],
+      "accountType": "basic",
+      "noOfRatings": 28,
+      "rating": 3.85,
+      "position": [-9.918521, 18.008438]
     },
     {
       "id": "638f41d1afa19009984f48d1",
       "name": "incididunt ex ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 395,
       "priceTo": 905,
       "picture": "https://via.placeholder.com/300x150",
@@ -218,9 +268,7 @@
       "phone": "+1 (833) 504-2790",
       "province": "podkarpackie",
       "address": "299 Irving Avenue, Mahtowa, New Mexico, 1067",
-      "latitude": -75.452146,
       "serviceType": "hunter",
-      "longitude": 114.365769,
       "type": "",
       "tags": [
         "laboris",
@@ -230,11 +278,16 @@
         "reprehenderit",
         "fugiat",
         "excepteur"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 44,
+      "rating": 4.19,
+      "position": [-75.452146, 16.931992]
     },
     {
       "id": "638f41d17eb48c336d8d65ad",
       "name": "non duis sunt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 301,
       "priceTo": 336,
       "picture": "https://via.placeholder.com/300x150",
@@ -242,15 +295,26 @@
       "phone": "+1 (846) 402-3092",
       "province": "lubuskie",
       "address": "692 Eagle Street, Greer, Hawaii, 765",
-      "latitude": -84.279607,
       "serviceType": "butcher",
-      "longitude": 126.840731,
       "type": "",
-      "tags": ["dolore", "commodo", "nostrud", "culpa", "id", "commodo", "aute"]
+      "tags": [
+        "dolore",
+        "commodo",
+        "nostrud",
+        "culpa",
+        "id",
+        "commodo",
+        "aute"
+      ],
+      "accountType": "gold",
+      "noOfRatings": 11,
+      "rating": 4.4,
+      "position": [-84.279607, 17.038538]
     },
     {
       "id": "638f41d1c33047d04bbf361a",
       "name": "incididunt qui veniam",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 898,
       "priceTo": 970,
       "picture": "https://via.placeholder.com/300x150",
@@ -258,9 +322,7 @@
       "phone": "+1 (931) 551-2576",
       "province": "pomorskie",
       "address": "639 Harkness Avenue, Loyalhanna, North Dakota, 201",
-      "latitude": 76.644584,
       "serviceType": "hunter",
-      "longitude": 173.897111,
       "type": "",
       "tags": [
         "ullamco",
@@ -270,11 +332,16 @@
         "mollit",
         "pariatur",
         "duis"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 18,
+      "rating": 4.99,
+      "position": [76.644584, 18.542936]
     },
     {
       "id": "638f41d1dc80ddc374bd0103",
       "name": "pariatur id irure",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 616,
       "priceTo": 499,
       "picture": "https://via.placeholder.com/300x150",
@@ -282,15 +349,18 @@
       "phone": "+1 (900) 421-2453",
       "province": "malopolskie",
       "address": "391 Dobbin Street, Kent, Oklahoma, 7516",
-      "latitude": -30.016586,
       "serviceType": "butcher",
-      "longitude": -72.370054,
       "type": "",
-      "tags": ["nisi", "irure", "amet", "ea", "aliqua", "minim", "cupidatat"]
+      "tags": ["nisi", "irure", "amet", "ea", "aliqua", "minim", "cupidatat"],
+      "accountType": "premium",
+      "noOfRatings": 9,
+      "rating": 4.97,
+      "position": [-30.016586, 17.926126]
     },
     {
       "id": "638f41d136a816273b8f8b47",
       "name": "tempor duis proident",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 141,
       "priceTo": 778,
       "picture": "https://via.placeholder.com/300x150",
@@ -298,15 +368,18 @@
       "phone": "+1 (920) 585-2038",
       "province": "slaskie",
       "address": "796 Poplar Street, Sedley, Kentucky, 7394",
-      "latitude": -61.849824,
       "serviceType": "butcher",
-      "longitude": -69.426744,
       "type": "",
-      "tags": ["ex", "sit", "id", "qui", "ea", "veniam", "est"]
+      "tags": ["ex", "sit", "id", "qui", "ea", "veniam", "est"],
+      "accountType": "gold",
+      "noOfRatings": 39,
+      "rating": 3.53,
+      "position": [-61.849824, 19.40449]
     },
     {
       "id": "638f41d148d03f465143c004",
       "name": "eu Lorem ex",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 278,
       "priceTo": 241,
       "picture": "https://via.placeholder.com/300x150",
@@ -314,15 +387,26 @@
       "phone": "+1 (870) 455-2596",
       "province": "pomorskie",
       "address": "452 Barwell Terrace, Cade, Alabama, 8297",
-      "latitude": 13.539708,
       "serviceType": "butcher",
-      "longitude": 10.949754,
       "type": "",
-      "tags": ["amet", "et", "cillum", "veniam", "officia", "tempor", "laborum"]
+      "tags": [
+        "amet",
+        "et",
+        "cillum",
+        "veniam",
+        "officia",
+        "tempor",
+        "laborum"
+      ],
+      "accountType": "basic",
+      "noOfRatings": 7,
+      "rating": 1.06,
+      "position": [13.539708, 19.457216]
     },
     {
       "id": "638f41d104694c19dada4704",
       "name": "quis ex ullamco",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 298,
       "priceTo": 374,
       "picture": "https://via.placeholder.com/300x150",
@@ -330,9 +414,7 @@
       "phone": "+1 (863) 529-2281",
       "province": "swietokrzyskie",
       "address": "521 Cumberland Walk, Iberia, Montana, 3788",
-      "latitude": 22.512693,
       "serviceType": "butcher",
-      "longitude": -92.461222,
       "type": "",
       "tags": [
         "esse",
@@ -342,11 +424,16 @@
         "exercitation",
         "eu",
         "mollit"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 33,
+      "rating": 1.15,
+      "position": [22.512693, 18.531017]
     },
     {
       "id": "638f41d1c49e4012c04444be",
       "name": "minim id duis",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 475,
       "priceTo": 245,
       "picture": "https://via.placeholder.com/300x150",
@@ -354,15 +441,18 @@
       "phone": "+1 (882) 477-3448",
       "province": "lubelskie",
       "address": "316 Conklin Avenue, Craig, Northern Mariana Islands, 8201",
-      "latitude": -47.940763,
       "serviceType": "hunter",
-      "longitude": 51.350084,
       "type": "",
-      "tags": ["et", "pariatur", "est", "labore", "cillum", "Lorem", "eu"]
+      "tags": ["et", "pariatur", "est", "labore", "cillum", "Lorem", "eu"],
+      "accountType": "gold",
+      "noOfRatings": 28,
+      "rating": 3.51,
+      "position": [-47.940763, 15.583267]
     },
     {
       "id": "638f41d1a9ac30038fbb64c3",
       "name": "aute commodo consequat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 735,
       "priceTo": 443,
       "picture": "https://via.placeholder.com/300x150",
@@ -370,15 +460,26 @@
       "phone": "+1 (908) 543-2712",
       "province": "slaskie",
       "address": "724 Amity Street, Glasgow, Nevada, 9135",
-      "latitude": -49.243054,
       "serviceType": "hunter",
-      "longitude": -30.749525,
       "type": "",
-      "tags": ["culpa", "dolor", "non", "nisi", "consectetur", "sit", "laborum"]
+      "tags": [
+        "culpa",
+        "dolor",
+        "non",
+        "nisi",
+        "consectetur",
+        "sit",
+        "laborum"
+      ],
+      "accountType": "basic",
+      "noOfRatings": 84,
+      "rating": 2.29,
+      "position": [-49.243054, 22.568445]
     },
     {
       "id": "638f41d1b2f01166e9b5f61a",
       "name": "minim proident anim",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 788,
       "priceTo": 728,
       "picture": "https://via.placeholder.com/300x150",
@@ -386,15 +487,18 @@
       "phone": "+1 (961) 592-2560",
       "province": "kujawsko-pomorskie",
       "address": "827 Boerum Street, Hayden, Maine, 937",
-      "latitude": -45.747975,
       "serviceType": "butcher",
-      "longitude": -125.43844,
       "type": "",
-      "tags": ["eiusmod", "id", "dolore", "qui", "anim", "magna", "laborum"]
+      "tags": ["eiusmod", "id", "dolore", "qui", "anim", "magna", "laborum"],
+      "accountType": "premium",
+      "noOfRatings": 37,
+      "rating": 3.49,
+      "position": [53.770226, 20.490189]
     },
     {
       "id": "638f41d1da14838a11d38695",
       "name": "exercitation commodo cupidatat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 392,
       "priceTo": 655,
       "picture": "https://via.placeholder.com/300x150",
@@ -402,9 +506,7 @@
       "phone": "+1 (978) 532-3825",
       "province": "pomorskie",
       "address": "604 Lawn Court, Kennedyville, Virginia, 235",
-      "latitude": -35.299379,
       "serviceType": "butcher",
-      "longitude": 174.400501,
       "type": "",
       "tags": [
         "qui",
@@ -414,11 +516,16 @@
         "consequat",
         "mollit",
         "nisi"
-      ]
+      ],
+      "accountType": "gold",
+      "noOfRatings": 36,
+      "rating": 4.71,
+      "position": [-35.299379, 21.017532]
     },
     {
       "id": "638f41d1c34976cdde787fd1",
       "name": "est dolor excepteur",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 228,
       "priceTo": 503,
       "picture": "https://via.placeholder.com/300x150",
@@ -426,15 +533,18 @@
       "phone": "+1 (985) 474-2504",
       "province": "zachodniopomorskie",
       "address": "355 McClancy Place, Crisman, Mississippi, 4968",
-      "latitude": -83.809265,
       "serviceType": "hunter",
-      "longitude": -179.279352,
       "type": "",
-      "tags": ["laborum", "est", "irure", "sint", "ad", "magna", "Lorem"]
+      "tags": ["laborum", "est", "irure", "sint", "ad", "magna", "Lorem"],
+      "accountType": "basic",
+      "noOfRatings": 10,
+      "rating": 2.96,
+      "position": [-83.809265, 19.039993]
     },
     {
       "id": "638f41d1544179ddcaa98810",
       "name": "consectetur mollit aute",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 65,
       "priceTo": 308,
       "picture": "https://via.placeholder.com/300x150",
@@ -442,9 +552,7 @@
       "phone": "+1 (944) 513-3436",
       "province": "slaskie",
       "address": "542 Rock Street, Welch, North Carolina, 7110",
-      "latitude": 19.402699,
       "serviceType": "hunter",
-      "longitude": 84.485731,
       "type": "",
       "tags": [
         "ut",
@@ -454,11 +562,16 @@
         "eiusmod",
         "magna",
         "amet"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 46,
+      "rating": 3.79,
+      "position": [19.402699, 19.009438]
     },
     {
       "id": "638f41d16f34934f7d468b59",
       "name": "minim aute pariatur",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 571,
       "priceTo": 461,
       "picture": "https://via.placeholder.com/300x150",
@@ -466,9 +579,7 @@
       "phone": "+1 (964) 413-2767",
       "province": "lubuskie",
       "address": "242 Ditmas Avenue, Berlin, Wisconsin, 4321",
-      "latitude": 80.990948,
       "serviceType": "butcher",
-      "longitude": 72.249033,
       "type": "",
       "tags": [
         "reprehenderit",
@@ -478,11 +589,16 @@
         "ex",
         "laborum",
         "consectetur"
-      ]
+      ],
+      "accountType": "gold",
+      "noOfRatings": 74,
+      "rating": 3.64,
+      "position": [80.990948, 18.638306]
     },
     {
       "id": "638f41d1651fddc4fc906196",
       "name": "culpa eu nulla",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 252,
       "priceTo": 359,
       "picture": "https://via.placeholder.com/300x150",
@@ -490,9 +606,7 @@
       "phone": "+1 (929) 470-3719",
       "province": "pomorskie",
       "address": "231 Hooper Street, Topaz, Delaware, 3222",
-      "latitude": 66.479445,
       "serviceType": "hunter",
-      "longitude": -103.165503,
       "type": "",
       "tags": [
         "Lorem",
@@ -502,11 +616,16 @@
         "exercitation",
         "tempor",
         "consectetur"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 60,
+      "rating": 4.62,
+      "position": [66.479445, 20.985842]
     },
     {
       "id": "638f41d1b0e2d5afb20300b7",
       "name": "anim ipsum id",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 442,
       "priceTo": 768,
       "picture": "https://via.placeholder.com/300x150",
@@ -514,9 +633,7 @@
       "phone": "+1 (904) 492-2244",
       "province": "warminsko-mazurskie",
       "address": "568 Williams Place, Kieler, Colorado, 9236",
-      "latitude": 84.550279,
       "serviceType": "butcher",
-      "longitude": 37.194495,
       "type": "",
       "tags": [
         "magna",
@@ -526,11 +643,16 @@
         "qui",
         "cupidatat",
         "aliquip"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 3,
+      "rating": 2.14,
+      "position": [84.550279, 19.104078]
     },
     {
       "id": "638f41d1c3f2cdc6b1cdb1f2",
       "name": "irure cupidatat consectetur",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 987,
       "priceTo": 872,
       "picture": "https://via.placeholder.com/300x150",
@@ -538,9 +660,7 @@
       "phone": "+1 (944) 501-3194",
       "province": "malopolskie",
       "address": "396 Herzl Street, Harleigh, Rhode Island, 1165",
-      "latitude": -8.797577,
       "serviceType": "butcher",
-      "longitude": 76.226377,
       "type": "",
       "tags": [
         "dolore",
@@ -550,11 +670,16 @@
         "mollit",
         "consequat",
         "amet"
-      ]
+      ],
+      "accountType": "gold",
+      "noOfRatings": 50,
+      "rating": 4.89,
+      "position": [-8.797577, 18.846025]
     },
     {
       "id": "638f41d18d7c9fe171472cbe",
       "name": "dolor ad deserunt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 934,
       "priceTo": 218,
       "picture": "https://via.placeholder.com/300x150",
@@ -562,9 +687,7 @@
       "phone": "+1 (903) 492-2086",
       "province": "dolnoslaskie",
       "address": "354 Lincoln Terrace, Lydia, Nebraska, 764",
-      "latitude": -7.56374,
       "serviceType": "butcher",
-      "longitude": 29.010138,
       "type": "",
       "tags": [
         "amet",
@@ -574,11 +697,16 @@
         "exercitation",
         "tempor",
         "incididunt"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 96,
+      "rating": 3.31,
+      "position": [-7.56374, 16.925167]
     },
     {
       "id": "638f41d17a75c38353d15e69",
       "name": "ad duis Lorem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 375,
       "priceTo": 686,
       "picture": "https://via.placeholder.com/300x150",
@@ -586,9 +714,7 @@
       "phone": "+1 (932) 471-2906",
       "province": "lodzkie",
       "address": "719 Kensington Walk, Mansfield, Vermont, 8547",
-      "latitude": -7.662533,
       "serviceType": "butcher",
-      "longitude": 142.668081,
       "type": "",
       "tags": [
         "anim",
@@ -598,11 +724,16 @@
         "consectetur",
         "laboris",
         "sunt"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 22,
+      "rating": 2.4,
+      "position": [-7.662533, 18.598444]
     },
     {
       "id": "638f41d1539cc7bef3127172",
       "name": "ut quis ad",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 500,
       "priceTo": 733,
       "picture": "https://via.placeholder.com/300x150",
@@ -610,15 +741,18 @@
       "phone": "+1 (814) 400-2561",
       "province": "podlaskie",
       "address": "151 Canarsie Road, Oasis, Marshall Islands, 5278",
-      "latitude": -26.805765,
       "serviceType": "butcher",
-      "longitude": 0.803558,
       "type": "",
-      "tags": ["sunt", "aliqua", "irure", "ad", "ad", "voluptate", "laboris"]
+      "tags": ["sunt", "aliqua", "irure", "ad", "ad", "voluptate", "laboris"],
+      "accountType": "gold",
+      "noOfRatings": 26,
+      "rating": 3.74,
+      "position": [-26.805765, 15.506186]
     },
     {
       "id": "638f41d1bba9d20cf73c73e7",
       "name": "laboris anim in",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 282,
       "priceTo": 663,
       "picture": "https://via.placeholder.com/300x150",
@@ -626,15 +760,18 @@
       "phone": "+1 (882) 431-2426",
       "province": "lubelskie",
       "address": "482 Glendale Court, Hannasville, West Virginia, 3727",
-      "latitude": 46.28321,
       "serviceType": "hunter",
-      "longitude": -118.494509,
       "type": "",
-      "tags": ["et", "sunt", "incididunt", "aute", "duis", "ea", "do"]
+      "tags": ["et", "sunt", "incididunt", "aute", "duis", "ea", "do"],
+      "accountType": "basic",
+      "noOfRatings": 78,
+      "rating": 2.86,
+      "position": [46.28321, 14.552812]
     },
     {
       "id": "638f41d123e697d9e3b2d450",
       "name": "aute veniam consectetur",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 28,
       "priceTo": 948,
       "picture": "https://via.placeholder.com/300x150",
@@ -642,9 +779,7 @@
       "phone": "+1 (829) 519-3195",
       "province": "podlaskie",
       "address": "204 Danforth Street, Grapeview, New Jersey, 6101",
-      "latitude": 29.914874,
       "serviceType": "hunter",
-      "longitude": 140.803657,
       "type": "",
       "tags": [
         "deserunt",
@@ -654,11 +789,16 @@
         "minim",
         "quis",
         "deserunt"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 20,
+      "rating": 1.6,
+      "position": [29.914874, 21.999121]
     },
     {
       "id": "638f41d19601093f64d023d5",
       "name": "dolore in cupidatat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 476,
       "priceTo": 557,
       "picture": "https://via.placeholder.com/300x150",
@@ -666,9 +806,7 @@
       "phone": "+1 (819) 485-2606",
       "province": "dolnoslaskie",
       "address": "242 Brown Street, Belva, Florida, 1960",
-      "latitude": 31.108769,
       "serviceType": "hunter",
-      "longitude": 2.605528,
       "type": "",
       "tags": [
         "aliquip",
@@ -678,11 +816,16 @@
         "elit",
         "sunt",
         "deserunt"
-      ]
+      ],
+      "accountType": "gold",
+      "noOfRatings": 18,
+      "rating": 2.36,
+      "position": [31.108769, 19.944544]
     },
     {
       "id": "638f41d18c2140c1dd6b682b",
       "name": "elit nulla sint",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 341,
       "priceTo": 87,
       "picture": "https://via.placeholder.com/300x150",
@@ -690,9 +833,7 @@
       "phone": "+1 (852) 540-2476",
       "province": "lodzkie",
       "address": "310 Rochester Avenue, Wauhillau, Tennessee, 8927",
-      "latitude": -33.102611,
       "serviceType": "hunter",
-      "longitude": 3.023582,
       "type": "",
       "tags": [
         "est",
@@ -702,11 +843,16 @@
         "eiusmod",
         "consectetur",
         "dolore"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 10,
+      "rating": 2.38,
+      "position": [-33.102611, 20.490189]
     },
     {
       "id": "638f41d1a9d0a0f6c605cae3",
       "name": "nulla ipsum anim",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 865,
       "priceTo": 682,
       "picture": "https://via.placeholder.com/300x150",
@@ -714,9 +860,7 @@
       "phone": "+1 (846) 443-3301",
       "province": "opolskie",
       "address": "221 Lancaster Avenue, Soham, Iowa, 6026",
-      "latitude": -65.028494,
       "serviceType": "butcher",
-      "longitude": 66.29075,
       "type": "",
       "tags": [
         "voluptate",
@@ -726,11 +870,16 @@
         "occaecat",
         "dolore",
         "laborum"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 20,
+      "rating": 4.84,
+      "position": [-65.028494, 18.008438]
     },
     {
       "id": "638f41d1d5f05de075466c0d",
       "name": "sunt nisi incididunt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 531,
       "priceTo": 499,
       "picture": "https://via.placeholder.com/300x150",
@@ -738,15 +887,18 @@
       "phone": "+1 (873) 483-2590",
       "province": "swietokrzyskie",
       "address": "487 Hill Street, Catharine, California, 1992",
-      "latitude": 50.300787,
       "serviceType": "butcher",
-      "longitude": 75.241234,
       "type": "",
-      "tags": ["ea", "sint", "aute", "ad", "est", "ex", "duis"]
+      "tags": ["ea", "sint", "aute", "ad", "est", "ex", "duis"],
+      "accountType": "gold",
+      "noOfRatings": 90,
+      "rating": 1.25,
+      "position": [50.300787, 16.931992]
     },
     {
       "id": "638f41d10a50c3d9f0ec6d0a",
       "name": "laborum eu eu",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 747,
       "priceTo": 209,
       "picture": "https://via.placeholder.com/300x150",
@@ -754,15 +906,18 @@
       "phone": "+1 (888) 479-2814",
       "province": "podkarpackie",
       "address": "143 Main Street, Caron, Arizona, 3361",
-      "latitude": -6.510232,
       "serviceType": "hunter",
-      "longitude": -156.614688,
       "type": "",
-      "tags": ["ad", "qui", "aliqua", "quis", "fugiat", "ad", "ut"]
+      "tags": ["ad", "qui", "aliqua", "quis", "fugiat", "ad", "ut"],
+      "accountType": "basic",
+      "noOfRatings": 66,
+      "rating": 3.06,
+      "position": [-6.510232, 17.038538]
     },
     {
       "id": "638f41d11c2d4a12fdf4a934",
       "name": "tempor quis adipisicing",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 48,
       "priceTo": 942,
       "picture": "https://via.placeholder.com/300x150",
@@ -770,15 +925,18 @@
       "phone": "+1 (996) 599-3413",
       "province": "pomorskie",
       "address": "900 Luquer Street, Chaparrito, Washington, 5947",
-      "latitude": -61.395758,
       "serviceType": "butcher",
-      "longitude": -98.087665,
       "type": "",
-      "tags": ["minim", "nulla", "aliqua", "sint", "veniam", "irure", "dolore"]
+      "tags": ["minim", "nulla", "aliqua", "sint", "veniam", "irure", "dolore"],
+      "accountType": "premium",
+      "noOfRatings": 88,
+      "rating": 4.42,
+      "position": [-61.395758, 18.542936]
     },
     {
       "id": "638f41d1e0588dd9e66859a5",
       "name": "pariatur do cillum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 812,
       "priceTo": 72,
       "picture": "https://via.placeholder.com/300x150",
@@ -786,15 +944,18 @@
       "phone": "+1 (930) 468-3237",
       "province": "malopolskie",
       "address": "829 Fillmore Avenue, Marienthal, Virgin Islands, 798",
-      "latitude": 85.683621,
       "serviceType": "butcher",
-      "longitude": 87.259591,
       "type": "",
-      "tags": ["nostrud", "officia", "id", "consequat", "tempor", "in", "et"]
+      "tags": ["nostrud", "officia", "id", "consequat", "tempor", "in", "et"],
+      "accountType": "gold",
+      "noOfRatings": 70,
+      "rating": 4.57,
+      "position": [85.683621, 17.926126]
     },
     {
       "id": "638f41d177d9978997fd2000",
       "name": "proident amet voluptate",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 714,
       "priceTo": 324,
       "picture": "https://via.placeholder.com/300x150",
@@ -802,9 +963,7 @@
       "phone": "+1 (815) 489-2588",
       "province": "warminsko-mazurskie",
       "address": "439 Powers Street, Greensburg, Utah, 4590",
-      "latitude": 42.538218,
       "serviceType": "butcher",
-      "longitude": -165.817373,
       "type": "",
       "tags": [
         "incididunt",
@@ -814,11 +973,16 @@
         "aliqua",
         "fugiat",
         "dolor"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 53,
+      "rating": 1.44,
+      "position": [42.538218, 19.40449]
     },
     {
       "id": "638f41d13eec9c8f744af825",
       "name": "amet nisi ex",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 392,
       "priceTo": 726,
       "picture": "https://via.placeholder.com/300x150",
@@ -826,15 +990,18 @@
       "phone": "+1 (847) 484-2658",
       "province": "swietokrzyskie",
       "address": "109 Elliott Walk, Bascom, South Dakota, 957",
-      "latitude": -70.275937,
       "serviceType": "butcher",
-      "longitude": -71.615885,
       "type": "",
-      "tags": ["aute", "irure", "mollit", "esse", "ea", "quis", "incididunt"]
+      "tags": ["aute", "irure", "mollit", "esse", "ea", "quis", "incididunt"],
+      "accountType": "premium",
+      "noOfRatings": 23,
+      "rating": 1.62,
+      "position": [-70.275937, 19.457216]
     },
     {
       "id": "638f41d16d1f04b41979cb01",
       "name": "ullamco laborum anim",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 365,
       "priceTo": 998,
       "picture": "https://via.placeholder.com/300x150",
@@ -842,9 +1009,7 @@
       "phone": "+1 (987) 401-3043",
       "province": "swietokrzyskie",
       "address": "656 Truxton Street, Tyhee, Arkansas, 7068",
-      "latitude": 3.227742,
       "serviceType": "butcher",
-      "longitude": 124.091078,
       "type": "",
       "tags": [
         "occaecat",
@@ -854,11 +1019,16 @@
         "elit",
         "amet",
         "commodo"
-      ]
+      ],
+      "accountType": "gold",
+      "noOfRatings": 68,
+      "rating": 1.1,
+      "position": [3.227742, 18.531017]
     },
     {
       "id": "638f41d1605cb8cb1f61fedd",
       "name": "eu ut officia",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 765,
       "priceTo": 957,
       "picture": "https://via.placeholder.com/300x150",
@@ -866,9 +1036,7 @@
       "phone": "+1 (943) 533-3897",
       "province": "malopolskie",
       "address": "141 Conselyea Street, Leming, Massachusetts, 9225",
-      "latitude": -60.923465,
       "serviceType": "hunter",
-      "longitude": -13.612138,
       "type": "",
       "tags": [
         "fugiat",
@@ -878,11 +1046,16 @@
         "labore",
         "labore",
         "consequat"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 55,
+      "rating": 1.55,
+      "position": [-60.923465, 15.583267]
     },
     {
       "id": "638f41d1f5f8709f1a9caaeb",
       "name": "laborum cillum fugiat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 481,
       "priceTo": 939,
       "picture": "https://via.placeholder.com/300x150",
@@ -890,9 +1063,7 @@
       "phone": "+1 (895) 492-3711",
       "province": "warminsko-mazurskie",
       "address": "198 Dupont Street, Cobbtown, Guam, 8758",
-      "latitude": -61.046286,
       "serviceType": "hunter",
-      "longitude": 85.450872,
       "type": "",
       "tags": [
         "irure",
@@ -902,11 +1073,16 @@
         "tempor",
         "culpa",
         "reprehenderit"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 70,
+      "rating": 4.23,
+      "position": [-61.046286, 22.568445]
     },
     {
       "id": "638f41d1285d1ac2f2ee3d55",
       "name": "do eiusmod est",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 890,
       "priceTo": 932,
       "picture": "https://via.placeholder.com/300x150",
@@ -914,15 +1090,26 @@
       "phone": "+1 (893) 431-3971",
       "province": "pomorskie",
       "address": "494 Dearborn Court, Cetronia, Federated States Of Micronesia, 570",
-      "latitude": 24.221975,
       "serviceType": "butcher",
-      "longitude": 134.632296,
       "type": "",
-      "tags": ["dolore", "tempor", "do", "voluptate", "Lorem", "magna", "minim"]
+      "tags": [
+        "dolore",
+        "tempor",
+        "do",
+        "voluptate",
+        "Lorem",
+        "magna",
+        "minim"
+      ],
+      "accountType": "gold",
+      "noOfRatings": 79,
+      "rating": 3.54,
+      "position": [24.221975, 23.471199]
     },
     {
       "id": "638f41d106954ead93849336",
       "name": "reprehenderit culpa non",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 928,
       "priceTo": 228,
       "picture": "https://via.placeholder.com/300x150",
@@ -930,9 +1117,7 @@
       "phone": "+1 (826) 447-2494",
       "province": "wielkopolskie",
       "address": "115 Highland Avenue, Chical, Kansas, 8091",
-      "latitude": -7.003426,
       "serviceType": "hunter",
-      "longitude": 6.474324,
       "type": "",
       "tags": [
         "enim",
@@ -942,11 +1127,16 @@
         "anim",
         "reprehenderit",
         "aliquip"
-      ]
+      ],
+      "accountType": "basic",
+      "noOfRatings": 17,
+      "rating": 2.47,
+      "position": [-7.003426, 21.017532]
     },
     {
       "id": "638f41d1c68b1ba753fc9b26",
       "name": "commodo voluptate elit",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 216,
       "priceTo": 391,
       "picture": "https://via.placeholder.com/300x150",
@@ -954,9 +1144,7 @@
       "phone": "+1 (879) 467-3120",
       "province": "dolnoslaskie",
       "address": "100 John Street, Klondike, Georgia, 3536",
-      "latitude": 28.370281,
       "serviceType": "butcher",
-      "longitude": 15.023955,
       "type": "",
       "tags": [
         "ut",
@@ -966,11 +1154,16 @@
         "anim",
         "ullamco",
         "labore"
-      ]
+      ],
+      "accountType": "premium",
+      "noOfRatings": 82,
+      "rating": 1.04,
+      "position": [28.370281, 19.039993]
     },
     {
       "id": "638f41d179fcee8e89fac10d",
       "name": "veniam tempor commodo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 226,
       "priceTo": 88,
       "picture": "https://via.placeholder.com/300x150",
@@ -978,9 +1171,7 @@
       "phone": "+1 (816) 405-2935",
       "province": "warminsko-mazurskie",
       "address": "218 Ferris Street, Belmont, New Hampshire, 9315",
-      "latitude": -34.85712,
       "serviceType": "butcher",
-      "longitude": 49.800952,
       "type": "",
       "tags": [
         "est",
@@ -990,11 +1181,16 @@
         "id",
         "aliqua",
         "cupidatat"
-      ]
+      ],
+      "accountType": "gold",
+      "noOfRatings": 19,
+      "rating": 3.84,
+      "position": [-34.85712, 19.009438]
     },
     {
       "id": "638f41d1b9eea9f0c7dd487f",
       "name": "eiusmod anim duis",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 886,
       "priceTo": 370,
       "picture": "https://via.placeholder.com/300x150",
@@ -1002,15 +1198,18 @@
       "phone": "+1 (972) 474-2366",
       "province": "wielkopolskie",
       "address": "706 Cove Lane, Orviston, Pennsylvania, 896",
-      "latitude": -70.78902,
       "serviceType": "butcher",
-      "longitude": 148.699023,
       "type": "",
-      "tags": ["elit", "velit", "voluptate", "ad", "culpa", "nulla", "sit"]
+      "tags": ["elit", "velit", "voluptate", "ad", "culpa", "nulla", "sit"],
+      "accountType": "basic",
+      "noOfRatings": 56,
+      "rating": 4.46,
+      "position": [-70.78902, 18.638306]
     },
     {
       "id": "638f41d12de8b585a5b8982f",
       "name": "velit in irure",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 379,
       "priceTo": 843,
       "picture": "https://via.placeholder.com/300x150",
@@ -1018,15 +1217,18 @@
       "phone": "+1 (954) 448-3102",
       "province": "kujawsko-pomorskie",
       "address": "321 Sumner Place, Disautel, American Samoa, 9093",
-      "latitude": 13.114634,
       "serviceType": "butcher",
-      "longitude": -137.762319,
       "type": "",
-      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"]
+      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"],
+      "accountType": "premium",
+      "noOfRatings": 94,
+      "rating": 2.95,
+      "position": [50.914874, 19.999121]
     },
     {
       "id": "638f41d12de8b585a5b1984f",
       "name": "velit in irure",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 379,
       "priceTo": 843,
       "picture": "https://via.placeholder.com/300x150",
@@ -1034,15 +1236,18 @@
       "phone": "+1 (954) 448-3102",
       "province": "kujawsko-pomorskie",
       "address": "321 Sumner Place, Disautel, American Samoa, 9093",
-      "latitude": 13.114634,
       "serviceType": "butcher",
-      "longitude": -137.762319,
       "type": "",
-      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"]
+      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"],
+      "accountType": "gold",
+      "noOfRatings": 88,
+      "rating": 2.24,
+      "position": [50.914874, 19.999121]
     },
     {
       "id": "638f41d11de8b585a5b8984f",
       "name": "velit in irure",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 379,
       "priceTo": 843,
       "picture": "https://via.placeholder.com/300x150",
@@ -1050,15 +1255,18 @@
       "phone": "+1 (954) 448-3102",
       "province": "kujawsko-pomorskie",
       "address": "321 Sumner Place, Disautel, American Samoa, 9093",
-      "latitude": 13.114634,
       "serviceType": "butcher",
-      "longitude": -137.762319,
       "type": "",
-      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"]
+      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"],
+      "accountType": "basic",
+      "noOfRatings": 57,
+      "rating": 1.06,
+      "position": [50.914874, 19.999121]
     },
     {
       "id": "638f41d12de8b585a5b8124f",
       "name": "velit in irure",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum ex ut augue faucibus scelerisque. Praesent ut pharetra ligula. Suspendisse et consequat lectus. Nam vehicula vehicula odio, ut ultricies neque maximus id. Donec pellentesque sapien sed feugiat lobortis. Nunc laoreet turpis et pharetra tincidunt. Sed ut suscipit orci. Sed at tortor ut est suscipit condimentum id ut ex. In egestas mauris fermentum dui pharetra luctus.Sed congue ipsum eu tellus elementum, in varius nisl facilisis. Nam ligula massa, lacinia at vestibulum sit amet, eleifend ac nisi. Quisque vestibulum placerat felis non hendrerit. Phasellus ac porta metus, ut sollicitudin est. Aenean.",
       "priceFrom": 379,
       "priceTo": 843,
       "picture": "https://via.placeholder.com/300x150",
@@ -1066,11 +1274,13 @@
       "phone": "+1 (954) 448-3102",
       "province": "kujawsko-pomorskie",
       "address": "321 Sumner Place, Disautel, American Samoa, 9093",
-      "latitude": 13.114634,
       "serviceType": "butcher",
-      "longitude": -137.762319,
       "type": "",
-      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"]
+      "tags": ["ex", "dolore", "commodo", "nulla", "sit", "laboris", "dolore"],
+      "accountType": "premium",
+      "noOfRatings": 86,
+      "rating": 4.41,
+      "position": [50.914874, 19.999121]
     }
   ]
 }

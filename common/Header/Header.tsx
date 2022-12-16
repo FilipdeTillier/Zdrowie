@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { ReactElement, useMemo, useState } from "react";
+import { ReactElement, useMemo } from "react";
 
 import {
   isValidSearchServiceObject,
   SearchForm,
 } from "@features/SearchRecords/SearchForm";
 import { useRouter } from "next/router";
+import classNames from "classnames";
 
 export const Header = (): ReactElement => {
   const { query } = useRouter();
@@ -19,17 +20,19 @@ export const Header = (): ReactElement => {
 
   return (
     <header className="sticky inset-0 z-10">
-      <nav className="relative bg-white shadow dark:bg-gray-800 bg-slate-200 fixed">
+      <nav
+        className={classNames(
+          "relative bg-white shadow bg-white fixed drop-shadow-md"
+        )}
+      >
         <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
-            <div>
-              <Link
-                className="text-2xl font-bold text-gray-800 transition-colors duration-300 transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
-                href="/"
-              >
-                Brand
-              </Link>
-            </div>
+            <Link
+              className="text-2xl font-bold text-gray-800 transition-colors duration-300 transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
+              href="/"
+            >
+              Brand
+            </Link>
           </div>
           <div
             className={

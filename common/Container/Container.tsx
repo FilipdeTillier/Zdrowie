@@ -15,9 +15,8 @@ export const Container = ({ children }: PropsWithChildren) => {
     () => router.pathname && headerVisiblePaths.includes(router.pathname),
     [router]
   );
-  const bgColor = useMemo(() => getBackgroundColor(colors.body), []);
   return (
-    <div className={classNames("min-h-full flex flex-col", bgColor)}>
+    <div className={classNames("min-h-full flex flex-col bg-slate-50")}>
       {isHeaderVisible && <Header />}
       <div className="container max-w-screen-lg mx-auto flex-1">
         <main className="w-full">{children}</main>

@@ -10,6 +10,7 @@ import { Languages, selectLanguageState } from "../store/configSlice";
 import { Container } from "../common/Container";
 
 import "../styles/globals.scss";
+import { flatTranslations } from "@helpers/flatTranslations";
 
 const messages = {
   [Languages.pl]: messages_pl,
@@ -19,10 +20,15 @@ function App({ Component, ...rest }: AppProps) {
   const { store, props } = wrapper.useWrappedStore(rest);
   const { lang } = store.getState().config;
   const { pageProps } = props;
+
+  const flattedTranslations = flatTranslations(messages[lang]);
+
+  console.log(flattedTranslations);
+
   return (
     <Provider store={store}>
       <IntlProvider
-        messages={messages[lang]}
+        messages={flattedTranslations}
         locale={lang}
         defaultLocale={Languages.pl}
       >

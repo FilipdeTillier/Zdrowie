@@ -5,6 +5,8 @@ import { ReactElement } from "react";
 import { appPaths } from "@helpers/paths";
 import { SELECT_OPTION } from "@common/Select/Select";
 import { Select } from "@common/Select";
+import { Button } from "@common/Button";
+import { useIntl } from "react-intl";
 
 const POLAND_PROVINCE: SELECT_OPTION[] = [
   {
@@ -104,6 +106,7 @@ export const SearchForm = ({
   defaultValues,
 }: SearchFormProps): ReactElement => {
   const router = useRouter();
+  const { formatMessage } = useIntl();
   const { handleSubmit, setFieldValue, values } = useFormik({
     initialValues: defaultValues || {
       specialty: "",
@@ -134,9 +137,9 @@ export const SearchForm = ({
         value={values.province}
         onChange={(val) => setFieldValue("province", val)}
       />
-      <button className="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-        Szukaj
-      </button>
+      <Button>
+        {formatMessage({ id: "search", defaultMessage: "Szukaj" })}
+      </Button>
     </form>
   );
 };

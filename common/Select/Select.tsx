@@ -3,7 +3,7 @@ import classNames from "classnames";
 
 import React from "react";
 
-import Select from "react-select";
+import Select, { CSSObjectWithLabel } from "react-select";
 
 export type SELECT_OPTION = {
   value: string;
@@ -18,6 +18,7 @@ type SelectProps = {
   placeholder?: string;
   id?: string;
   className?: string;
+  classNamePrefix?: string;
 };
 
 export const SelectInput = ({
@@ -28,7 +29,27 @@ export const SelectInput = ({
   id = name,
   placeholder,
   className,
+  classNamePrefix,
 }: SelectProps): ReactElement => {
+  const styles = {
+    menuList: (base: CSSObjectWithLabel) => ({
+      ...base,
+
+      "::-webkit-scrollbar": {
+        width: "4px",
+        height: "0px",
+      },
+      "::-webkit-scrollbar-track": {
+        background: "#f1f1f1",
+      },
+      "::-webkit-scrollbar-thumb": {
+        background: "#888",
+      },
+      "::-webkit-scrollbar-thumb:hover": {
+        background: "#555",
+      },
+    }),
+  };
   return (
     <Select
       options={options}
@@ -37,7 +58,9 @@ export const SelectInput = ({
       value={options.find((el) => el.value === value)}
       name={name}
       className={classNames(className)}
+      classNamePrefix={classNamePrefix}
       id={id || name}
+      styles={styles}
       onChange={(e) => e?.value && onChange(e?.value)}
       theme={(theme) => ({
         ...theme,
@@ -45,8 +68,8 @@ export const SelectInput = ({
         width: "200px",
         colors: {
           ...theme.colors,
-          primary25: "hotpink",
-          primary: "black",
+          primary25: "rgb(163 230 53)",
+          primary: " rgb(132 204 22)",
         },
       })}
     />

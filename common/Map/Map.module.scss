@@ -1,0 +1,10 @@
+.map-container {
+  width: 100%;
+  z-index: 0;
+  aspect-ratio: 1/1;
+  max-height: 300px;
+}
+
+.leaflet-popup-content p.marker-paragraph {
+  margin: 0;
+}

@@ -1,8 +1,19 @@
+import { LatLngExpression } from "leaflet";
+
 export type ServiceType = "hunter" | "butcher";
+
+export type AccountType = "basic" | "premium" | "gold";
+
+export enum AccountTypeWeight {
+  basic = 0,
+  premium = 1,
+  gold = 2,
+}
 
 export interface ServiceProvider {
   id: string;
   name: string;
+  description: string;
   priceFrom: number;
   priceTo: number;
   picture: string;
@@ -10,8 +21,10 @@ export interface ServiceProvider {
   phone: string;
   province: string;
   address: string;
-  latitude: number;
+  position: LatLngExpression;
   serviceType: ServiceType;
-  longitude: number;
   tags: string[];
+  noOfRatings: number;
+  accountType: AccountType;
+  rating: number;
 }
