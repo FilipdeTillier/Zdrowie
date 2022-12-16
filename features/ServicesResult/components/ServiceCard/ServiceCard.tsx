@@ -12,6 +12,7 @@ import { appPaths } from "@helpers/paths";
 import { Ratings } from "../Rating";
 import classNames from "classnames";
 import { Text } from "@common/Text";
+import { ContactLabel } from "../ContactLabel";
 
 interface ServiceResultProps {
   service: ServiceProvider;
@@ -25,6 +26,7 @@ export const ServiceCard = ({
     id,
     picture,
     rating,
+    website,
     description,
     email,
     noOfRatings,
@@ -74,20 +76,33 @@ export const ServiceCard = ({
           </Text>
         </Link>
 
-        <Text className="text-xs text-gray-500">
+        <Text className="text-xs text-gray-400 hover:text-gray-400 mb-2">
           {description.length > MAX_DESCRIPTION_LENGTH
             ? `${description.slice(0, MAX_DESCRIPTION_LENGTH)}...`
             : description}
         </Text>
 
-        {/* <div className="flex justify-between mt-3 item-center">
-          <h1 className="text-lg font-bold text-gray-700 dark:text-gray-200 md:text-xl">
-            $220
-          </h1>
-          <button className="px-2 py-1 text-xs font-bold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded dark:bg-gray-700 hover:bg-gray-700 dark:hover:bg-gray-600 focus:outline-none focus:bg-gray-700 dark:focus:bg-gray-600">
-            Add to Cart
-          </button>
-        </div> */}
+        <div className="flex bg-slate-100">
+          <ContactLabel
+            value={phone}
+            useShortcut
+            type="phone"
+            className="text-xs text-gray-700 hover:text-gray-900 mr-2"
+          />
+          <ContactLabel
+            value={email}
+            useShortcut
+            type="email"
+            className="text-xs text-gray-700 hover:text-gray-900 mr-2"
+          />
+          <ContactLabel
+            value={website}
+            useShortcut
+            type="website"
+            linkTarget="_blank"
+            className="text-xs text-gray-700 hover:text-gray-900"
+          />
+        </div>
       </div>
     </div>
   );

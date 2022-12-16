@@ -18,6 +18,7 @@ export interface ServiceProvider {
   priceTo: number;
   picture: string;
   email: string;
+  website: string;
   phone: string;
   province: string;
   address: string;
