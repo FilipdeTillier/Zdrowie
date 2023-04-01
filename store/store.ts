@@ -2,12 +2,14 @@ import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
 import { authSlice } from "./authSlice";
 import { createWrapper } from "next-redux-wrapper";
 import { configSlice } from "./configSlice";
+import { servicesSlice } from "@features/ServicesResult/store/servicesSlice";
 
 const makeStore = () =>
   configureStore({
     reducer: {
       [authSlice.name]: authSlice.reducer,
       [configSlice.name]: configSlice.reducer,
+      [servicesSlice.name]: servicesSlice.reducer,
     },
     devTools: true,
   });

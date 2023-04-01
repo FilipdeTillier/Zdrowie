@@ -1,8 +1,12 @@
 {
   "appName": "123",
   "search": "Szukaj",
-  "butcher": "Rzeźnik",
-  "hunter": "Myśliwy",
+  "trainer": "Trener personalny",
+  "dietician": "Dietetyk",
+  "services": "Usługi",
+  "more": "Więcej",
+  "less": "Mniej",
+  "physiotherapist": "Fizjoterapeuta",
   "reviews": "Opinie",
   "leaflet": {
     "marker": {

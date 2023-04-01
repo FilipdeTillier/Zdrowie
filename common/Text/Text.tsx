@@ -7,12 +7,7 @@ export const Text = ({
   className,
 }: TPropsWithClassName<PropsWithChildren>) => {
   return (
-    <p
-      className={classNames(
-        "text-cyan-700 hover:text-cyan-900 font-semibold capitalize",
-        className
-      )}
-    >
+    <p className={classNames("text-gray-700 hover:text-gray-900", className)}>
       {children}
     </p>
   );

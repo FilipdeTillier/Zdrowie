@@ -7,10 +7,11 @@ import { PropsWithChildren, useMemo } from "react";
 import { Footer } from "../Footer";
 import { Header } from "../Header";
 
-const headerVisiblePaths = [appPaths.results];
+const headerVisiblePaths = [appPaths.results, appPaths.offer];
 
 export const Container = ({ children }: PropsWithChildren) => {
   const router = useRouter();
+  console.log(router);
   const isHeaderVisible = useMemo(
     () => router.pathname && headerVisiblePaths.includes(router.pathname),
     [router]
@@ -18,7 +19,7 @@ export const Container = ({ children }: PropsWithChildren) => {
   return (
     <div className={classNames("min-h-full flex flex-col bg-slate-50")}>
       {isHeaderVisible && <Header />}
-      <div className="container max-w-screen-lg mx-auto flex-1">
+      <div className="container max-w-screen-xl mx-auto flex-1">
         <main className="w-full">{children}</main>
       </div>
       <Footer />

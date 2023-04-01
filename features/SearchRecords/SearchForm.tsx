@@ -7,6 +7,7 @@ import { SELECT_OPTION } from "@common/Select/Select";
 import { Select } from "@common/Select";
 import { Button } from "@common/Button";
 import { useIntl } from "react-intl";
+import { useMemo } from "react";
 
 const POLAND_PROVINCE: SELECT_OPTION[] = [
   {
@@ -75,17 +76,6 @@ const POLAND_PROVINCE: SELECT_OPTION[] = [
   },
 ];
 
-const SPECIALTY: SELECT_OPTION[] = [
-  {
-    value: "rzeznik",
-    label: "Rzeźnik",
-  },
-  {
-    value: "mysliwy",
-    label: "Myśliwy",
-  },
-];
-
 export type SearchServicesFormValues = {
   specialty: string;
   province: string;
@@ -107,6 +97,31 @@ export const SearchForm = ({
 }: SearchFormProps): ReactElement => {
   const router = useRouter();
   const { formatMessage } = useIntl();
+
+  const SPECIALTY: SELECT_OPTION[] = useMemo(
+    () => [
+      {
+        value: "physiotherapist",
+        label: formatMessage({
+          id: "physiotherapist",
+          defaultMessage: "Fizjoterapeuta",
+        }),
+      },
+      {
+        value: "trainer",
+        label: formatMessage({
+          id: "trainer",
+          defaultMessage: "Trener Personalny",
+        }),
+      },
+      {
+        value: "dietician",
+        label: formatMessage({ id: "dietician", defaultMessage: "Dietetyk" }),
+      },
+    ],
+    []
+  );
+
   const { handleSubmit, setFieldValue, values } = useFormik({
     initialValues: defaultValues || {
       specialty: "",

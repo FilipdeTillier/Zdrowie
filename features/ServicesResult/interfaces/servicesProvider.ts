@@ -1,6 +1,6 @@
 import { LatLngExpression } from "leaflet";
 
-export type ServiceType = "hunter" | "butcher";
+export type ServiceType = "physiotherapist" | "trainer" | "dietician";
 
 export type AccountType = "basic" | "premium" | "gold";
 
@@ -9,6 +9,12 @@ export enum AccountTypeWeight {
   premium = 1,
   gold = 2,
 }
+
+export type TLocation = {
+  name: string;
+  position: LatLngExpression;
+  address: string;
+};
 
 export interface ServiceProvider {
   id: string;
@@ -23,9 +29,15 @@ export interface ServiceProvider {
   province: string;
   address: string;
   position: LatLngExpression;
+  locations: TLocation[];
   serviceType: ServiceType;
   tags: string[];
   noOfRatings: number;
   accountType: AccountType;
   rating: number;
 }
+
+export type QueryResponse<T> = {
+  results: T;
+  pages: number;
+};
