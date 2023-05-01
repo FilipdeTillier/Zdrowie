@@ -20,11 +20,7 @@ export const Header = (): ReactElement => {
 
   return (
     <header className="sticky inset-0 z-10">
-      <nav
-        className={classNames(
-          "relative bg-white shadow bg-white fixed drop-shadow-md"
-        )}
-      >
+      <nav className={"relative bg-white shadow bg-white fixed drop-shadow-md"}>
         <div className="container py-4 mx-auto md:flex md:justify-between md:items-center max-w-screen-xl">
           <div className="flex items-center justify-between">
             <Link

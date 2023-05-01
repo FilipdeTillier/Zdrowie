@@ -7,7 +7,12 @@ module.exports = {
     "./features/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      minWidth: {
+        28: "7rem",
+        "6/10": "60%",
+      },
+    },
   },
   plugins: [],
 };

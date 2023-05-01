@@ -4,8 +4,8 @@
   "trainer": "Trener personalny",
   "dietician": "Dietetyk",
   "services": "Usługi",
-  "more": "Więcej",
-  "less": "Mniej",
+  "showMore": "Pokaz więcej",
+  "showLess": "Pokaz mniej",
   "physiotherapist": "Fizjoterapeuta",
   "reviews": "Opinie",
   "leaflet": {
