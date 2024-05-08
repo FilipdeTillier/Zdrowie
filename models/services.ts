@@ -1,0 +1,5 @@
+export enum Services {
+  TRAINER = "TRAINER",
+  DIETICIAN = "DIETICIAN",
+  PHYSIOTHERAPIST = "PHYSIOTHERAPIST",
+}

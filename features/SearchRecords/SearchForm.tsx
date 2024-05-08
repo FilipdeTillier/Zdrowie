@@ -9,6 +9,8 @@ import { Button } from "@common/Button";
 import { useIntl } from "react-intl";
 import { useMemo } from "react";
 
+import styles from "./SearchForm.module.scss";
+
 const POLAND_PROVINCE: SELECT_OPTION[] = [
   {
     value: "dolnoslaskie",
@@ -135,20 +137,20 @@ export const SearchForm = ({
     },
   });
   return (
-    <form onSubmit={handleSubmit} className="flex justify-between items-center">
+    <form onSubmit={handleSubmit} className={styles.searchForm}>
       <Select
         options={SPECIALTY}
         placeholder="Kogo szukasz?"
         name="specialty"
         value={values.specialty}
-        className="mr-5 w-56"
+        className="w-full lg:mr-5 lg:w-56"
         onChange={(val) => setFieldValue("specialty", val)}
       />
       <Select
         options={POLAND_PROVINCE}
         placeholder="Województwo"
         name="province"
-        className="mr-5 w-56"
+        className="w-full lg:mr-5 lg:w-56"
         value={values.province}
         onChange={(val) => setFieldValue("province", val)}
       />

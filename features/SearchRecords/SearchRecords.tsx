@@ -1,6 +1,12 @@
+import { getOffers } from "api/getOffers";
 import { SearchForm } from "./SearchForm";
 
-export const SearchRecords = () => {
+type Props = {
+  data: any[];
+};
+
+export const SearchRecords = ({ data }: Props) => {
+  console.log(data);
   return (
     <div className="w-full search-bar flex justify-center content-center ">
       <div className="search-bar__background w-full"></div>

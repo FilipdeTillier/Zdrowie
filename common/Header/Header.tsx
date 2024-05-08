@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ReactElement, useMemo } from "react";
+import { Input } from "@common/Input";
 
 import {
   isValidSearchServiceObject,
@@ -7,6 +8,8 @@ import {
 } from "@features/SearchRecords/SearchForm";
 import { useRouter } from "next/router";
 import classNames from "classnames";
+
+import styles from "./Header.module.scss";
 
 export const Header = (): ReactElement => {
   const { query } = useRouter();
@@ -19,12 +22,9 @@ export const Header = (): ReactElement => {
   );
 
   return (
-    <header className="sticky inset-0 z-10">
-      <nav
-        className={classNames(
-          "relative bg-white shadow bg-white fixed drop-shadow-md"
-        )}
-      >
+    <header className={classNames("sticky inset-0 z-10")}>
+      <nav className={classNames(styles.nav)}></nav>
+      {/* <nav className={classNames("relative bg-white shadow  drop-shadow-md")}>
         <div className="container py-4 mx-auto md:flex md:justify-between md:items-center max-w-screen-xl">
           <div className="flex items-center justify-between">
             <Link
@@ -40,11 +40,16 @@ export const Header = (): ReactElement => {
             }
           >
             <div className="flex flex-col md:flex-row">
-              <SearchForm defaultValues={defaultValues} />
+              <Input
+                value=""
+                name="search-input"
+                id="search-input"
+                onChange={() => {}}
+              />
             </div>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </header>
   );
 };
