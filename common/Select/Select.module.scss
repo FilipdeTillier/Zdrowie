@@ -1,0 +1,10 @@
+@import "@styles/colors";
+
+.isSelected {
+  background-color: $primary;
+}
+
+.isFocused {
+  background-color: $primary-hover;
+  color: white;
+}

@@ -8,6 +8,8 @@ import {
   useMemo,
 } from "react";
 
+import styles from "./Button.module.scss";
+
 type ButtonProps = ButtonHTMLAttributes<{}>;
 
 export const Button = ({
@@ -19,7 +21,8 @@ export const Button = ({
     <button
       onClick={onClick}
       className={classNames(
-        "px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform rounded-lg focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80 bg-lime-500 hover:bg-lime-400",
+        styles.button,
+        "px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform rounded-lg focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80",
         className
       )}
     >

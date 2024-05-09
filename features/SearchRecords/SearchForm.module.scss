@@ -1,0 +1,19 @@
+@import "@styles/colors";
+
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  @media (min-width: 705px) {
+    flex-direction: row;
+  }
+}
+
+.searchFromSelect {
+  width: 100%;
+  @media (min-width: 705px) {
+    flex-direction: row;
+  }
+}

@@ -1,12 +1,15 @@
+import { useMemo, ReactElement } from "react";
+import classNames from "classnames";
+import { useIntl } from "react-intl";
 import { useFormik } from "formik";
 import { useRouter } from "next/router";
-import { ReactElement } from "react";
 
 import { appPaths } from "@helpers/paths";
 import { SELECT_OPTION } from "@common/Select/Select";
 import { Select } from "@common/Select";
 import { Button } from "@common/Button";
-import { useIntl } from "react-intl";
+
+import styles from "./SearchForm.module.scss";
 
 const POLAND_PROVINCE: SELECT_OPTION[] = [
   {
@@ -75,17 +78,6 @@ const POLAND_PROVINCE: SELECT_OPTION[] = [
   },
 ];
 
-const SPECIALTY: SELECT_OPTION[] = [
-  {
-    value: "rzeznik",
-    label: "Rzeźnik",
-  },
-  {
-    value: "mysliwy",
-    label: "Myśliwy",
-  },
-];
-
 export type SearchServicesFormValues = {
   specialty: string;
   province: string;
@@ -100,13 +92,46 @@ export const isValidSearchServiceObject = (obj: {
   return false;
 };
 
-type SearchFormProps = { defaultValues?: SearchServicesFormValues };
+type SearchFormProps = {
+  defaultValues?: SearchServicesFormValues;
+  onFormSubmit?: () => void;
+  formClassName?: string;
+  buttonClassName?: string;
+};
 
 export const SearchForm = ({
   defaultValues,
+  onFormSubmit,
+  buttonClassName,
+  formClassName,
 }: SearchFormProps): ReactElement => {
   const router = useRouter();
   const { formatMessage } = useIntl();
+
+  const SPECIALTY: SELECT_OPTION[] = useMemo(
+    () => [
+      {
+        value: "physiotherapist",
+        label: formatMessage({
+          id: "physiotherapist",
+          defaultMessage: "Fizjoterapeuta",
+        }),
+      },
+      {
+        value: "trainer",
+        label: formatMessage({
+          id: "trainer",
+          defaultMessage: "Trener Personalny",
+        }),
+      },
+      {
+        value: "dietician",
+        label: formatMessage({ id: "dietician", defaultMessage: "Dietetyk" }),
+      },
+    ],
+    []
+  );
+
   const { handleSubmit, setFieldValue, values } = useFormik({
     initialValues: defaultValues || {
       specialty: "",
@@ -117,27 +142,32 @@ export const SearchForm = ({
         pathname: appPaths.results,
         query: values,
       });
+      onFormSubmit && onFormSubmit();
     },
   });
+
   return (
-    <form onSubmit={handleSubmit} className="flex justify-between items-center">
+    <form
+      onSubmit={handleSubmit}
+      className={classNames(styles.searchForm, formClassName)}
+    >
       <Select
         options={SPECIALTY}
         placeholder="Kogo szukasz?"
         name="specialty"
         value={values.specialty}
-        className="mr-5 w-56"
+        className="w-full lg:mr-5 lg:w-56"
         onChange={(val) => setFieldValue("specialty", val)}
       />
       <Select
         options={POLAND_PROVINCE}
         placeholder="Województwo"
         name="province"
-        className="mr-5 w-56"
+        className="w-full lg:mr-5 lg:w-56"
         value={values.province}
         onChange={(val) => setFieldValue("province", val)}
       />
-      <Button>
+      <Button className={buttonClassName}>
         {formatMessage({ id: "search", defaultMessage: "Szukaj" })}
       </Button>
     </form>

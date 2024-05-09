@@ -1,6 +1,7 @@
 .search-bar {
   height: 400px;
   &__background {
+    display: none;
     height: 400px;
     position: absolute;
     left: 0;
@@ -8,5 +9,8 @@
     background-size: cover;
     background-position: unset;
     background-attachment: fixed;
+    @media (min-width: 705px) {
+      display: block;
+    }
   }
 }

@@ -1,26 +1,23 @@
-import Head from "next/head";
 import { GetServerSidePropsContext, NextPage } from "next/types";
 import { ServicesResult } from "../features/ServicesResult/components/ServicesResult/ServicesResult";
 import { ServiceProvider } from "../features/ServicesResult/interfaces/servicesProvider";
-import { paths } from "../helpers/paths";
-
-import { request } from "../helpers/request";
+import { getOffers } from "api/getOffers";
 
 interface ResultsPageProps {
+  pages: number;
   results: ServiceProvider[];
 }
 
-const Results: NextPage<ResultsPageProps> = ({ results }) => {
-  return <ServicesResult services={results} />;
+const Results: NextPage<any> = ({ data = [] }) => {
+  return <ServicesResult services={data} pages={2} />;
 };
 
 export async function getServerSideProps(context: GetServerSidePropsContext) {
-  const { data: results } = await request.get<ServiceProvider[]>(
-    `${paths.serviceProvider}?province=${context.query.province}`
-  );
+  const respones = await getOffers();
+
   return {
     props: {
-      results,
+      data: respones,
     },
   };
 }

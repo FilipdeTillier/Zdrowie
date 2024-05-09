@@ -5,6 +5,8 @@ import StarEmpty from "@public/icons/star_empty.svg";
 import Email from "@public/icons/mail.svg";
 import Phone from "@public/icons/phone.svg";
 import Website from "@public/icons/website.svg";
+import Arrow from "@public/icons/arrow.svg";
+import MapPin from "@public/icons/map_pin.svg";
 
 export const Icons = {
   star: Star,
@@ -12,6 +14,8 @@ export const Icons = {
   email: Email,
   phone: Phone,
   website: Website,
+  arrow: Arrow,
+  mapPin: MapPin,
 };
 
 export type TIconType = keyof typeof Icons;
