@@ -7,6 +7,5 @@ export const getOffers = async () =>
       query: OFFERS_QUERY,
     })
     .then(({ data }) => {
-      console.log("data", data);
       return data.offers.map(mapOfferToData);
     });

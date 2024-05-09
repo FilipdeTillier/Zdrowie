@@ -1,13 +1,13 @@
+import { useMemo, ReactElement } from "react";
+import classNames from "classnames";
+import { useIntl } from "react-intl";
 import { useFormik } from "formik";
 import { useRouter } from "next/router";
-import { ReactElement } from "react";
 
 import { appPaths } from "@helpers/paths";
 import { SELECT_OPTION } from "@common/Select/Select";
 import { Select } from "@common/Select";
 import { Button } from "@common/Button";
-import { useIntl } from "react-intl";
-import { useMemo } from "react";
 
 import styles from "./SearchForm.module.scss";
 
@@ -92,10 +92,18 @@ export const isValidSearchServiceObject = (obj: {
   return false;
 };
 
-type SearchFormProps = { defaultValues?: SearchServicesFormValues };
+type SearchFormProps = {
+  defaultValues?: SearchServicesFormValues;
+  onFormSubmit?: () => void;
+  formClassName?: string;
+  buttonClassName?: string;
+};
 
 export const SearchForm = ({
   defaultValues,
+  onFormSubmit,
+  buttonClassName,
+  formClassName,
 }: SearchFormProps): ReactElement => {
   const router = useRouter();
   const { formatMessage } = useIntl();
@@ -134,10 +142,15 @@ export const SearchForm = ({
         pathname: appPaths.results,
         query: values,
       });
+      onFormSubmit && onFormSubmit();
     },
   });
+
   return (
-    <form onSubmit={handleSubmit} className={styles.searchForm}>
+    <form
+      onSubmit={handleSubmit}
+      className={classNames(styles.searchForm, formClassName)}
+    >
       <Select
         options={SPECIALTY}
         placeholder="Kogo szukasz?"
@@ -154,7 +167,7 @@ export const SearchForm = ({
         value={values.province}
         onChange={(val) => setFieldValue("province", val)}
       />
-      <Button>
+      <Button className={buttonClassName}>
         {formatMessage({ id: "search", defaultMessage: "Szukaj" })}
       </Button>
     </form>

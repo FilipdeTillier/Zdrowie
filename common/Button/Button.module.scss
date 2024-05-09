@@ -1,8 +1,13 @@
+@import "@styles/colors";
+
 .button {
-  background-color: red;
+  background-color: $primary;
   color: white;
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  &:hover {
+    background-color: $primary-hover;
+  }
 }

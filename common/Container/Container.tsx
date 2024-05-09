@@ -16,7 +16,6 @@ const headerVisiblePaths = [appPaths.results, appPaths.offer];
 export const Container = ({ children }: PropsWithChildren) => {
   const router = useRouter();
   const { query } = useRouter();
-  console.log(router);
   const isHeaderVisible = useMemo(
     () => router.pathname && headerVisiblePaths.includes(router.pathname),
     [router]

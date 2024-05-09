@@ -20,7 +20,6 @@ export const Pagination = ({
   prevPage,
   goToPage,
 }: TPropsWithClassName<PaginationProps>) => {
-  console.log(pages);
   const pagesArray = Array(pages)
     .fill("")
     .map((_el, index) => index + 1);

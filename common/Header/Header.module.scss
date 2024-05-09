@@ -1,5 +1,26 @@
 @import "@styles/colors";
 
+.header {
+  border-bottom: 1px solid lightgray;
+}
+
 .nav {
-  background-color: $primary;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.searchForm {
+  width: 100%;
+}
+
+.searchFormDesktop {
+  flex-direction: row;
 }

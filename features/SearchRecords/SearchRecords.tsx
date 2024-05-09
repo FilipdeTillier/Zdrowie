@@ -6,7 +6,6 @@ type Props = {
 };
 
 export const SearchRecords = ({ data }: Props) => {
-  console.log(data);
   return (
     <div className="w-full search-bar flex justify-center content-center ">
       <div className="search-bar__background w-full"></div>
